@@ -1,0 +1,178 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Img/background.png" type="Texture" id=1]
+[ext_resource path="res://Arcade.gd" type="Script" id=2]
+[ext_resource path="res://Menu.gd" type="Script" id=3]
+[ext_resource path="res://Exit.gd" type="Script" id=4]
+[ext_resource path="res://Start.gd" type="Script" id=5]
+[ext_resource path="res://Monoton-Regular.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://SpeedModeOpen.gd" type="Script" id=7]
+[ext_resource path="res://MusicButton.gd" type="Script" id=8]
+[ext_resource path="res://ButtomAbout.gd" type="Script" id=9]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 30
+font_data = ExtResource( 6 )
+
+[node name="Menu" type="Node2D"]
+position = Vector2( 300.728, 511.15 )
+script = ExtResource( 3 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( -0.725405, 1.04697 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = -108.728
+margin_top = -319.15
+margin_right = 125.272
+margin_bottom = -96.15
+custom_fonts/font = SubResource( 1 )
+text = "Pong
+"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Arcade" type="TextureButton" parent="."]
+margin_left = -109.0
+margin_top = -119.0
+margin_right = 125.0
+margin_bottom = -42.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Arcade"]
+margin_left = 14.0
+margin_top = 14.0
+margin_right = 170.0
+margin_bottom = 95.0
+custom_fonts/font = SubResource( 2 )
+text = "Arcade
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Infinity" type="TextureButton" parent="."]
+margin_left = -159.0
+margin_top = -23.15
+margin_right = 183.0
+margin_bottom = 45.85
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Infinity"]
+margin_left = 14.0
+margin_top = 14.0
+margin_right = 170.0
+margin_bottom = 95.0
+custom_fonts/font = SubResource( 2 )
+text = "Infinity Mode
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SpeedMode" type="TextureButton" parent="."]
+margin_left = -159.0
+margin_top = 73.0
+margin_right = 183.0
+margin_bottom = 150.0
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="SpeedMode"]
+margin_left = 14.0
+margin_top = 14.0
+margin_right = 302.0
+margin_bottom = 145.0
+custom_fonts/font = SubResource( 2 )
+text = "Master Level
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="About" type="TextureButton" parent="."]
+margin_left = -95.0
+margin_top = 160.85
+margin_right = 103.0
+margin_bottom = 237.85
+script = ExtResource( 9 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="About"]
+margin_left = 14.0
+margin_top = 14.0
+margin_right = 302.0
+margin_bottom = 145.0
+custom_fonts/font = SubResource( 2 )
+text = "About"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Exit" type="TextureButton" parent="."]
+margin_left = -100.728
+margin_top = 256.85
+margin_right = 88.272
+margin_bottom = 339.85
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Exit"]
+margin_left = 19.946
+margin_top = 11.6216
+margin_right = 175.946
+margin_bottom = 92.6216
+custom_fonts/font = SubResource( 2 )
+text = "      Exit
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = -276.728
+margin_top = -471.15
+margin_right = -105.728
+margin_bottom = -431.15
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="TextureButton"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 3 )
+text = "Music off"

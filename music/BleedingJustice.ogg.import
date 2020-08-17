@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/BleedingJustice.ogg-f5d66f6d659a74ce4b6d8ef255e517c6.oggstr"
+
+[deps]
+
+source_file="res://music/BleedingJustice.ogg"
+dest_files=[ "res://.import/BleedingJustice.ogg-f5d66f6d659a74ce4b6d8ef255e517c6.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

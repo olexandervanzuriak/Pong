@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/RoccoW-Braadslee.ogg-a82d623b75c8f13fe8b66db2ff62727a.oggstr"
+
+[deps]
+
+source_file="res://music/RoccoW-Braadslee.ogg"
+dest_files=[ "res://.import/RoccoW-Braadslee.ogg-a82d623b75c8f13fe8b66db2ff62727a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
