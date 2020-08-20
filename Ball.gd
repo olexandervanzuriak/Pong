@@ -8,14 +8,12 @@ var hitcounter = 0
 var max_hitcounter = 12
 var velocity = Vector2()
 
+func choose_randomly(list_of_entries):
+		return list_of_entries[randi() % list_of_entries.size()]
+
 func set_start_direction():
-	
-	var random_x = 0
-	
-	
-	random_x = 0.1
-	
-	velocity = Vector2(random_x, rand_range(-0.7, 0.7))
+	randomize()
+	velocity = Vector2(choose_randomly([0, 0.1, 0.2, -0.1, -0.2]), choose_randomly([1,-1]))
 	velocity = velocity.normalized() * ball_speed
 
 func _physics_process(delta):

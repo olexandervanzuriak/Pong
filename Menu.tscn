@@ -34,9 +34,9 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="."]
-margin_left = -108.728
+margin_left = -109.0
 margin_top = -319.15
-margin_right = 125.272
+margin_right = 125.0
 margin_bottom = -96.15
 custom_fonts/font = SubResource( 1 )
 text = "Pong
@@ -47,10 +47,10 @@ __meta__ = {
 }
 
 [node name="Arcade" type="TextureButton" parent="."]
-margin_left = -109.0
-margin_top = -119.0
-margin_right = 125.0
-margin_bottom = -42.0
+margin_left = -105.728
+margin_top = -119.15
+margin_right = 128.272
+margin_bottom = -42.15
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true,
@@ -70,9 +70,9 @@ __meta__ = {
 }
 
 [node name="Infinity" type="TextureButton" parent="."]
-margin_left = -159.0
+margin_left = -156.728
 margin_top = -23.15
-margin_right = 183.0
+margin_right = 185.272
 margin_bottom = 45.85
 script = ExtResource( 5 )
 __meta__ = {
@@ -93,10 +93,10 @@ __meta__ = {
 }
 
 [node name="SpeedMode" type="TextureButton" parent="."]
-margin_left = -159.0
-margin_top = 73.0
-margin_right = 183.0
-margin_bottom = 150.0
+margin_left = -156.728
+margin_top = 72.85
+margin_right = 185.272
+margin_bottom = 149.85
 script = ExtResource( 7 )
 __meta__ = {
 "_edit_group_": true,
@@ -116,9 +116,9 @@ __meta__ = {
 }
 
 [node name="About" type="TextureButton" parent="."]
-margin_left = -95.0
+margin_left = -91.728
 margin_top = 160.85
-margin_right = 103.0
+margin_right = 106.272
 margin_bottom = 237.85
 script = ExtResource( 9 )
 __meta__ = {
@@ -138,10 +138,10 @@ __meta__ = {
 }
 
 [node name="Exit" type="TextureButton" parent="."]
-margin_left = -100.728
-margin_top = 256.85
-margin_right = 88.272
-margin_bottom = 339.85
+margin_left = -91.728
+margin_top = 248.85
+margin_right = 97.272
+margin_bottom = 331.85
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true,

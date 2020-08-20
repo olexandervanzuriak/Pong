@@ -5,7 +5,7 @@ var musicIsPlaying = true
 var isPaused = false
 
 func _ready():
-	stream = load("res://music/BleedingJustice.ogg")
+	stream = preload("res://music/BleedingJustice.ogg")
 	music = "BleedingJustice"
 	playing = true
 
